@@ -28,6 +28,7 @@ public void draw()
 {
 	if (keyPressed==true && key=='a')
 	{
+		colorMode(RGB);
 	background(0xff1E262D, 0.5f);
 	colorMode(HSB);
 	stroke(((int)(Math.random()*30)+110), ((int)(Math.random()*30)+100), ((int)(Math.random()*20)+200));
@@ -42,6 +43,7 @@ public void draw()
 }
 else if (keyPressed==false)
 {
+	colorMode(RGB);
 	background(0xff1E262D, 0.5f);
 }
 x=250;
