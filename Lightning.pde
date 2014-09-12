@@ -14,7 +14,7 @@ void draw()
 	if (keyPressed==true && key=='a')
 	{
 		colorMode(RGB);
-	background(30, 38, 45, 0.5);
+	background(30, 38, 45);
 	colorMode(HSB);
 	stroke(((int)(Math.random()*30)+110), ((int)(Math.random()*30)+100), ((int)(Math.random()*20)+200));
 	while(y<500)
@@ -29,7 +29,7 @@ void draw()
 else if (keyPressed==false)
 {
 	colorMode(RGB);
-	background(30, 38, 45, 0.5);
+	background(30, 38, 45);
 }
 x=250;
 		y=0;
