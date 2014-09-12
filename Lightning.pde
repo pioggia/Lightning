@@ -5,6 +5,7 @@ int y2=0;
 void setup()
 {
 	size(500, 500);
+	colorMode(RGB);
 	background(#1E262D);
 	strokeWeight(3);
 }
